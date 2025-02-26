@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/")
     public String index() {
-        return "shyhub come to Spring boot";
+        return "shyhub come to Spring boot hehe";
     }
 }
